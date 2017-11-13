@@ -1,0 +1,82 @@
+<project name="cobertura.examples.basic" default="test" basedir=".">
+	
+	
+	<description>
+	    Cobertura - http://cobertura.sourceforge.net/
+	    Copyright (C) 2003 jcoverage ltd.
+	    Copyright (C) 2005 Mark Doliner &lt;thekingant@users.sourceforge.net&gt;
+	    Copyright (C) 2006 Dan Godfrey
+	    Cobertura is licensed under the GNU General Public License
+	    Cobertura comes with ABSOLUTELY NO WARRANTY
+	    </description>
+<property file="build.properties" />
+	
+	
+	
+	
+	<path id="cobertura.classpath">
+		<pathelement location="WebContent/WEB-INF/lib/asm-5.0.1.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/asm-analysis-5.0.1.jar" />
+	<pathelement location="WebContent/WEB-INF/lib/asm-commons-5.0.1.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/asm-tree-5.0.1.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/asm-util-5.0.1.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/commons-lang3-3.3.2.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/hamcrest-core-1.3.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/jaxen-1.1.4.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/jetty-6.1.14.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/jetty-util-6.1.14.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/ant-contrib-1.0b3.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/cobertura-2.1.1.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/junit-4.11.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/logback-classic-1.0.13.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/logback-core-1.0.13.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/oro-2.0.8.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/servlet-api-2.5-6.1.14.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/slf4j-api-1.7.5.jar"/>
+	<pathelement location="WebContent/WEB-INF/lib/spring-context-2.0.5 .jar"/>
+
+		
+			<fileset dir="${cobertura.dir}">
+				<include name="cobertura*.jar" />
+				<include name="lib/**/*.jar" />
+			</fileset>
+		</path>
+	
+	<taskdef classpathref="cobertura.classpath" resource="tasks.properties">
+		<classpath refid="cobertura.classpath" />
+		</taskdef>
+
+
+	<target name="test">
+    <classpath location="${collector.dir}" />
+    <classpath location="${classes.dir}" />
+    <property name="collector.class" value="FailedTests"/>
+    <!-- Delete 'old' collector classes -->
+    <delete>
+        <fileset dir="${collector.dir}" includes="${collector.class}*.class"/>
+    </delete>
+    <!-- compile the FailedTests class if present --> 
+    <javac srcdir="${collector.dir}" destdir="${collector.dir}"  includeantruntime="false"/>
+    <available file="${collector.dir}/${collector.class}.class" property="hasFailingTests"/>
+    <junit haltonerror="false" haltonfailure="false">
+        <sysproperty key="ant.junit.failureCollector" value="${collector.dir}/${collector.class}"/>
+        <classpath>
+        <pathelement location="WebContent/WEB-INF/lib/junit-4.11.jar"/>
+            <pathelement location="${collector.dir}"/>
+        </classpath>
+        <batchtest todir="${collector.dir}" unless="hasFailingTests">
+            <fileset dir="${collector.dir}" includes="**/*.java" excludes="**/${collector.class}.*"/>
+            <!-- for initial creation of the FailingTests.java -->
+            <formatter type="failure"/>
+            <!-- I want to see something ... -->
+            <formatter type="plain" usefile="false"/>
+        </batchtest>
+        <test name="FailedTests" if="hasFailingTests">
+            <!-- update the FailingTests.java -->
+            <formatter type="failure"/>
+            <!-- again, I want to see something -->
+            <formatter type="plain" usefile="false"/>
+        </test>
+    </junit>
+</target>
+</project>

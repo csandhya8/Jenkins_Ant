@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="INCHCMPC07245" name="com.ant.web.SimpleTest" skipped="0" tests="3" time="0.016" timestamp="2017-03-23T06:38:45">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="coverage.summaryxml.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports/cobertura-summary-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_51\jre\classes" />
+    <property name="reports.html.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports/junit-html" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\apache-ant-1.9.4" />
+    <property name="java.runtime.version" value="1.7.0_51-b13" />
+    <property name="cobertura.dir" value="D:/Jenkins/security/cloned_repo/AntProject/WebContent/WEB-INF/lib" />
+    <property name="user.name" value="INCHCMPC07245$" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\bin" />
+    <property name="reports.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="cobertura.examples.basic" />
+    <property name="ant.file.cobertura.examples.basic" value="D:\Jenkins\FolderStructure\workspace\AntProject_Junit\junit.xml" />
+    <property name="java.version" value="1.7.0_51" />
+    <property name="coverage.html.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports/cobertura-html" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="D:/Jenkins/security/cloned_repo/AntProject/build/classes" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="IN" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file.type.cobertura.examples.basic" value="file" />
+    <property name="ant.file" value="D:\Jenkins\FolderStructure\workspace\AntProject_Junit\junit.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.51-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\apache-ant-1.9.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="reports.xml.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports/junit-xml" />
+    <property name="user.home" value="C:\" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="coverage.xml.dir" value="D:/Jenkins/security/cloned_repo/AntProject/reports/cobertura-xml" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.7.0_51/bin;C:\Program Files\Java\jdk1.7.0_51\bin;C:\apache-ant-1.9.4\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files (x86)\Subversion\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ant.web.SimpleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Jenkins\security\cloned_repo\AntProject\reports\junit-xml\TEST-com.ant.web.SimpleTest.xml crashfile=D:\Jenkins\FolderStructure\workspace\AntProject_Junit\junitvmwatcher2865309679956298902.properties propsfile=D:\Jenkins\FolderStructure\workspace\AntProject_Junit\junit5872519241094145895.properties" />
+    <property name="java.class.path" value="D:\Jenkins\security\cloned_repo\AntProject\instrumented;D:\Jenkins\security\cloned_repo\AntProject\build\classes;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\asm-5.0.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\asm-analysis-5.0.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\asm-commons-5.0.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\asm-tree-5.0.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\asm-util-5.0.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\commons-lang3-3.3.2.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\jaxen-1.1.4.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\jetty-6.1.14.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\jetty-util-6.1.14.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\ant-contrib-1.0b3.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\cobertura-2.1.1.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\junit-4.11.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\logback-classic-1.0.13.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\logback-core-1.0.13.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\oro-2.0.8.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\servlet-api-2.5-6.1.14.jar;D:\Jenkins\FolderStructure\workspace\AntProject_Junit\WebContent\WEB-INF\lib\slf4j-api-1.7.5.jar;D:\Jenkins\security\cloned_repo\AntProject\WebContent\WEB-INF\lib\cobertura-2.1.1.jar;C:\apache-ant-1.9.4\lib\ant-launcher.jar;C:\apache-ant-1.9.4\lib\ant.jar;C:\apache-ant-1.9.4\lib\ant-junit.jar;C:\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="instrumented.dir" value="D:/Jenkins/security/cloned_repo/AntProject/instrumented" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\Jenkins\FolderStructure\workspace\AntProject_Junit" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="D:\Jenkins\FolderStructure\workspace\AntProject_Junit" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="D:/Jenkins/security/cloned_repo/AntProject/src" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="com.ant.web.SimpleTest" name="testSum" time="0.0" />
+  <testcase classname="com.ant.web.SimpleTest" name="testF" time="0.0" />
+  <testcase classname="com.ant.web.SimpleTest" name="testSquare" time="0.0" />
+  <system-out><![CDATA[12:08:44,873 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+12:08:44,873 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+12:08:44,873 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/D:/Jenkins/FolderStructure/workspace/AntProject_Junit/WebContent/WEB-INF/lib/cobertura-2.1.1.jar!/logback.xml]
+12:08:44,873 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+12:08:44,873 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/D:/Jenkins/FolderStructure/workspace/AntProject_Junit/WebContent/WEB-INF/lib/cobertura-2.1.1.jar!/logback.xml]
+12:08:44,873 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/D:/Jenkins/security/cloned_repo/AntProject/WebContent/WEB-INF/lib/cobertura-2.1.1.jar!/logback.xml]
+12:08:44,889 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@4e9ff7c0 - URL [jar:file:/D:/Jenkins/FolderStructure/workspace/AntProject_Junit/WebContent/WEB-INF/lib/cobertura-2.1.1.jar!/logback.xml] is not of type file
+12:08:44,936 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+12:08:44,951 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+12:08:44,967 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+12:08:44,983 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+12:08:45,014 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [net.sourceforge.cobertura] to INFO
+12:08:45,014 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+12:08:45,014 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+12:08:45,014 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:08:45,014 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@68428693 - Registering current configuration as safe fallback point
+
+[DEBUG] value: 3
+[DEBUG] value: 5
+[DEBUG] value: 8
+[DEBUG] result: 16
+[DEBUG] x: -1
+[DEBUG] negative x
+[DEBUG] x: -1
+[DEBUG] result: 1
+[DEBUG] x: 6
+[DEBUG] x: 1
+[DEBUG] result: 1
+[DEBUG] x: -1
+[DEBUG] result: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="cobertura.examples.basic" default="warTarget" basedir=".">
+<property file="build.properties" />
+<target name="warTarget" >
+		    <war warfile="AntProject.war" needxmlfile="false">
+			<fileset dir="${src.dir}"/>
+			</war>
+			
+		</target>
+	   
+
+</project>

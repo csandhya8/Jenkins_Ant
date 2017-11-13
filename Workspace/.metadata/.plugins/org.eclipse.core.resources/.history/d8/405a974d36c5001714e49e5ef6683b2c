@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<target name="myTest1">
+    <property name="collector.dir" value="D:/Poc's/Jenkins_ANT/Workspace/Jenkins_AntProject-master/collector/failingTests"/>
+    <retry retrycount="3">
+      <junit haltonerror="yes" haltonfailure="yes" 
+             fork="no" printsummary="withOutAndErr" 
+             showoutput="true" tempdir="D:/tm">
+      <formatter type="xml" />
+      <test name="com.ant.web." todir="${collector.dir}" />
+      <classpath refid="cobertura.classpath" />
+      <formatter type="brief" usefile="false"/>
+      </junit>
+    </retry>
+</target>

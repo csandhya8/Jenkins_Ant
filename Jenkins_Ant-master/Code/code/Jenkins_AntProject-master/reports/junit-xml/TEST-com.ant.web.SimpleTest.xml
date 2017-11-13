@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="INCHCMPC05305" name="com.ant.web.SimpleTest" skipped="0" tests="3" time="0.019" timestamp="2017-11-09T11:47:06">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="coverage.summaryxml.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports/cobertura-summary-xml" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/softwares/eclipse-luna-64/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="D:\softwares\java\jdk1.8.0_45\jre\lib\resources.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\rt.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\sunrsasign.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\jsse.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\jce.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\charsets.jar;D:\softwares\java\jdk1.8.0_45\jre\lib\jfr.jar;D:\softwares\java\jdk1.8.0_45\jre\classes" />
+    <property name="reports.html.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports/junit-html" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\softwares\apache-ant-1.10.1" />
+    <property name="java.runtime.version" value="1.8.0_45-b15" />
+    <property name="cobertura.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/WebContent/WEB-INF/lib" />
+    <property name="user.name" value="SC00434321" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="D:\softwares\java\jdk1.8.0_45\jre\bin" />
+    <property name="reports.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports" />
+    <property name="ant.project.default-target" value="test" />
+    <property name="ant.project.name" value="cobertura.examples.basic" />
+    <property name="ant.file.cobertura.examples.basic" value="D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\junit.xml" />
+    <property name="java.version" value="1.8.0_45" />
+    <property name="coverage.html.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports/cobertura-html" />
+    <property name="user.timezone" value="Asia/Calcutta" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="D:\softwares\java\jdk1.8.0_45\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="collector.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/collector/failingTests" />
+    <property name="classes.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/build/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="D:\softwares\java\jdk1.8.0_45\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file.type.cobertura.examples.basic" value="file" />
+    <property name="ant.file" value="D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\junit.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.45-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\softwares\apache-ant-1.10.1\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/softwares/eclipse-luna-64/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+    <property name="reports.xml.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports/junit-xml" />
+    <property name="user.home" value="C:\Users\SC00434321" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="coverage.xml.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/reports/cobertura-xml" />
+    <property name="java.library.path" value="D:\softwares\java\jdk1.8.0_45\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/softwares/java/jdk1.8.0_45/bin/../jre/bin/server;D:/softwares/java/jdk1.8.0_45/bin/../jre/bin;D:/softwares/java/jdk1.8.0_45/bin/../jre/lib/amd64;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\PROGRA~2\CA\SC\CAM\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\softwares\java\jdk1.8.0_45\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;D:\softwares\java\jdk1.8.0_45\bin;D:\softwares\apache-maven-3.3.9\bin;D:\softwares\apache-ant-1.10.1\bin;D:\softwares\eclipse-luna-64;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ant.web.SimpleTest skipNonTests=false filtertrace=true haltOnError=true haltOnFailure=true showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\reports\junit-xml\TEST-com.ant.web.SimpleTest.xml crashfile=D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\junitvmwatcher5889619857122541546.properties propsfile=D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\junit7689933224329813928.properties" />
+    <property name="java.class.path" value="D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\instrumented;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\build\classes;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\asm-5.0.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\asm-analysis-5.0.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\asm-commons-5.0.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\asm-tree-5.0.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\asm-util-5.0.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\commons-lang3-3.3.2.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\hamcrest-core-1.3.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\jaxen-1.1.4.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\jetty-6.1.14.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\jetty-util-6.1.14.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\ant-contrib-1.0b3.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\cobertura-2.1.1.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\junit-4.11.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\logback-classic-1.0.13.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\logback-core-1.0.13.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\oro-2.0.8.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\servlet-api-2.5-6.1.14.jar;D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master\WebContent\WEB-INF\lib\slf4j-api-1.7.5.jar;D:\softwares\apache-ant-1.10.1\lib\ant-launcher.jar;D:\softwares\apache-ant-1.10.1\lib\ant.jar;D:\softwares\apache-ant-1.10.1\lib\ant-junit.jar;D:\softwares\apache-ant-1.10.1\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/D:/softwares/eclipse-luna-64/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+    <property name="java.io.tmpdir" value="C:\Users\SC0043~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="instrumented.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/instrumented" />
+    <property name="java.ext.dirs" value="D:\softwares\java\jdk1.8.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="D:\Poc&apos;s\Jenkins_ANT\Workspace\Jenkins_AntProject-master" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\softwares\apache-ant-1.10.1\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="D:/Poc&apos;s/Jenkins_ANT/Workspace/Jenkins_AntProject-master/src" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <testcase classname="com.ant.web.SimpleTest" name="testSum" time="0.005" />
+  <testcase classname="com.ant.web.SimpleTest" name="testF" time="0.002" />
+  <testcase classname="com.ant.web.SimpleTest" name="testSquare" time="0.001" />
+  <system-out><![CDATA[[DEBUG] value: 3
+[DEBUG] value: 5
+[DEBUG] value: 8
+[DEBUG] result: 16
+[DEBUG] x: -1
+[DEBUG] negative x
+[DEBUG] x: -1
+[DEBUG] result: 1
+[DEBUG] x: 6
+[DEBUG] x: 1
+[DEBUG] result: 1
+[DEBUG] x: -1
+[DEBUG] result: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
